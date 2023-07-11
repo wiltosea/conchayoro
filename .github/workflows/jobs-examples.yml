@@ -5,8 +5,8 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: step do job build
-        run: echo Hello, world! Build.
+      - name: example of invalid command
+        run: ecko Hello, world! Build failed.
   job2:
     runs-on: ubuntu-latest
     steps:
