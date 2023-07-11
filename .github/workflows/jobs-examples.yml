@@ -5,10 +5,10 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: step do job1
-        run: echo Hello, world! job1.
+      - name: step do job build
+        run: echo Hello, world! Build.
   job2:
     runs-on: ubuntu-latest
     steps:
-      - name: step do job2
-        run: echo Hello, world! Job2.
+      - name: step do deploy
+        run: echo Hello, world! Deploy.
