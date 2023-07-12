@@ -1,0 +1,17 @@
+name: steps examples
+on:
+  push
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your branch
+        uses: actions/checkout@master
+      - name: Then install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14.x
+      - name: verify node version
+        run: node --version
