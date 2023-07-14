@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: backend
+    environment: frontend
 environment-defaults:
   frontend:
     branch: null
